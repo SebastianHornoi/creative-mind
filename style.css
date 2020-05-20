@@ -1,0 +1,71 @@
+html,body{background-color: #3A3A3A;height: 100%;}
+a{text-decoration: none;color: #fff;}
+
+/* padding and margins*/
+.margintop{margin-top: 40px;}
+.marginbottom{margin-bottom: 40px}
+/* finish*/
+
+.blocco__nero__sx{height: 20%; width: 30%;background-color: #000;}
+.page__conteiner{height: 100%;margin-top: -60px;}
+
+/*aside*/
+.aside{width: 20%;background-color: #42A1A7;;float: left;margin-left: 134px;height: 100%;}
+.aside__logo{height: 100px;width: 100%;display: flex;justify-content: center;flex-direction: column;align-items: center;background-color: #47AAB0}
+.aside__logo__description{color: #fff;}
+.aside__menu__link{padding: 10px 40px;display: block;}
+.aside__link{ margin-left: 40px}
+.scroll__down__conteiner{display: flex;margin-left: 30px;height: 150px;position: relative;align-items: center;
+animation-name: scroll;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes scroll{
+  0%{top: 10px}
+  50%{top: 25px}
+  100%{top: 10px}
+}
+.aside__scroll__img{}
+.aside__scrolldown{color: #fff;}
+
+/*cover*/
+/*cover1*/
+.cover__conteiner{float: left;height: 100%;width: 60%;}
+.cover1{border: 1px solid black;height: 50%;width: 100%;z-index: 0;
+background-image: url("ballo.jpg");
+background-position: center;}
+.cover1__link{float: right;color: #333;padding: 10px 20px;background-color: #4CD2DB;margin-top: 30PX;margin-right: 40px;}
+.cover1__link:hover{color:#fff;}
+.cover1__title{color: #fff;font-size: 20px;margin-left: 40px;opacity: 1;margin-bottom: 0}
+.cover1__paragraph{color: #fff; margin-left: 40px;margin-right: 600px;font-size: 10px;opacity: 0.6;margin-top: 0;margin-bottom: 0;}
+.cover1__hr{border: 1px dotted #fff;margin-right: 600px;margin-left: 40px;opacity: 0.8}
+.cover1__paragraph__2{color: #fff;margin-left: 40px;margin-right: 600px;font-size: 10px;ma}
+.cover1__img{border-radius: 50%;margin-left: 35px;float: left;}
+.cover1__name{color: #fff;margin-bottom: 0;margin-top: 0px;}
+.cover1__job__description{color: #fff;margin-top: 0}
+.cover1__name__conteiner{display: flex;flex-direction: column;opacity: 0.8;margin-left: 80px;}
+
+/*cover2*/
+.cover2{height: 50%;width: 60%;background-color: #F2F6F7;z-index: 1;position: absolute;}
+
+
+/*contenitore 3 box cover 2*/
+.cover2__conteiner__3px{width: 80%;height: 40%;margin-left: 70px;display: flex;margin-top: -80px;z-index: 2}
+.cover2__video{width: 30%}
+.cover2__video__description{width: 30%;background-color: #FFF}
+.cover2__video__description__title{margin-bottom: 0;margin-left: 10px;}
+.cover2__video__description__paragraph{margin-left: 10px;margin-top: 0;font-size: 13px;opacity: 0.8}
+.cover2__foto{width: 40%;height: 180%;margin-bottom: 0;
+background-image: url("foto cover 2.jpg");
+background-position: center;
+background-size: cover;}
+.cover2__video__modifier{width: 100%; height: 100%;}
+
+/*restante cover 2*/
+.cover2__title{margin-left: 70px;color: #42A1A7;}
+.cover2__paragraph{margin-left: 70px;font-size: 25px;margin-bottom: 0}
+.cover2__paragraph__2{opacity: 0.7}
+.cover2__paragraph__1{margin-top: 0;opacity: 0.7}
+.cover2__aside__sx{ float: left; height: 100px;width: 250px;margin-left: 70px;margin-top: 0}
+.cover2__aside__dx{ float: right; height: 100px;width: 300px;margin-right: 50px;margin-top: 0:}
